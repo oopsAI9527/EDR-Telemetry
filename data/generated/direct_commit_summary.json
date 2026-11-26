@@ -49,6 +49,31 @@
   {
     "author": null,
     "categories_affected": [
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 8,
+    "commit_date_utc": "2026-11-25T13:56:46-07:00",
+    "commit_message": "Record maintainer-verified Win32 API coverage gaps",
+    "commit_sha": "3423a4b53764eef992cc8d213e9502ea221c3f84",
+    "public_url": "https://github.com/oopsAI9527/EDR-Telemetry/commit/3423a4b53764eef992cc8d213e9502ea221c3f84",
+    "score_delta": 0.0,
+    "vendors_affected": [
+      "crowdstrike",
+      "cybereason",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
       "Service Activity"
     ],
     "changed_score_bearing_files": [
@@ -152,6 +177,24 @@
     "score_delta": 0.55,
     "vendors_affected": [
       "trend_micro_trendai"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "commit_date_utc": "2026-11-25T13:56:46-07:00",
+    "commit_message": "Document Windows Win32 API telemetry coverage audit",
+    "commit_sha": "9482109d530f7fb44e04636882b8036de5d8d696",
+    "public_url": "https://github.com/oopsAI9527/EDR-Telemetry/commit/9482109d530f7fb44e04636882b8036de5d8d696",
+    "score_delta": 1.0,
+    "vendors_affected": [
+      "trellix"
     ]
   },
   {
